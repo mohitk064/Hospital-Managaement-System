@@ -74,8 +74,8 @@ public class App extends Application {
                 } else {
                     try {
                         Class c1 = Class.forName("com.mysql.cj.jdbc.Driver");
-                        String user = "root";
-                        String pass = "";
+                        String user = "mohit";
+                        String pass = "mohit123";
                         final String db_url = "jdbc:mysql://localhost/patient";
                         Connection con = DriverManager.getConnection(db_url, user, pass);
                         Statement stmt = (Statement) con.createStatement();
@@ -152,8 +152,8 @@ public class App extends Application {
                 } else {
                     try {
                         Class c1 = Class.forName("com.mysql.cj.jdbc.Driver");
-                        String user = "root";
-                        String pass = "";
+                        String user = "mohit";
+                        String pass = "mohit123";
                         final String db_url = "jdbc:mysql://localhost/patient";
                         Connection con = DriverManager.getConnection(db_url, user, pass);
                         Statement stmt = (Statement) con.createStatement();
@@ -349,8 +349,8 @@ public class App extends Application {
                 pwBox.clear();
                 try {
                     Class c1 = Class.forName("com.mysql.cj.jdbc.Driver");
-                    String user = "root";
-                    String pass = "";
+                    String user = "mohit";
+                    String pass = "mohit123";
                     final String db_url = "jdbc:mysql://localhost/patient";
                     Connection con = DriverManager.getConnection(db_url, user, pass);
                     Statement stmt = (Statement) con.createStatement();
@@ -384,8 +384,8 @@ public class App extends Application {
                 try {
                     HashMap hm = new HashMap<>();
                     Class c1 = Class.forName("com.mysql.cj.jdbc.Driver");
-                    String user = "root";
-                    String pass = "";
+                    String user = "mohit";
+                    String pass = "mohit123";
                     final String db_url = "jdbc:mysql://localhost/patient";
                     Connection con = DriverManager.getConnection(db_url, user, pass);
                     Statement stmt = (Statement) con.createStatement();
@@ -410,8 +410,8 @@ public class App extends Application {
                 addid.clear();
                 try {
                     Class c1 = Class.forName("com.mysql.cj.jdbc.Driver");
-                    String user = "root";
-                    String pass = "";
+                    String user = "mohit";
+                    String pass = "mohit123";
                     final String db_url = "jdbc:mysql://localhost/patient";
                     Connection con = DriverManager.getConnection(db_url, user, pass);
                     Statement stmt = (Statement) con.createStatement();
